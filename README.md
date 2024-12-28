@@ -34,15 +34,51 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Start a New Project in Quartus:
+
+  • Open Quartus Prime and create a new project.
+  • Define the project name and directory location.
+
+2. Write the Verilog Code for JK Flip-Flop:
+
+  • Use the if-else statement to describe the behavior of the JK flip-flop.
+
+3. Compile and Simulate:
+
+  • Compile the design in Quartus.
+  • Simulate the design using the simulation tool to verify the functionality against the truth table.
+
+4. Analyze the Results:
+
+  • Check the output waveform to verify the correct operation of the JK flip-flop based on different input combinations.
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+![jk_flipflop_code](https://github.com/user-attachments/assets/98d7863d-7f99-4f74-96e4-6d719ece8016)
+
+
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![jk_flipflop_rtl](https://github.com/user-attachments/assets/03487505-7b01-4620-8083-04417077de4e)
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![jk_flipflop_waveform](https://github.com/user-attachments/assets/163ba71e-1854-4399-9497-5a3d95584524)
+
+
 **RESULTS**
+
+• The Verilog code for the JK flip-flop works correctly as per the truth table.
+
+• The simulation results match the expected behavior of the JK flip-flop.
+
+• The timing diagram in Quartus will show the accurate transitions of the Q output based on the input conditions.
+
+• The functionality of the JK flip-flop (Hold, Reset, Set, Toggle) is validated using the simulation.
+
+
+
